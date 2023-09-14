@@ -38,7 +38,7 @@ int main() {
     }
 
     // print even numbers
-    printf("Even numbers: ");
+    printf("\nEven numbers: ");
     for (int o = 0; o < tSize; o++) {
         // rm empty spaces in array
         if (even[o] != '\0') {
@@ -46,7 +46,7 @@ int main() {
         } else {
             even[o] == '\0';
         }
-    }
+    } 
 
     // print odd numbers
     printf("\nOdd numbers: ");
